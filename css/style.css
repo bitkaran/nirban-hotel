@@ -1360,7 +1360,6 @@ footer {
 
   .hero {
     padding: 0 24px 60px;
-    min-height: 90vh;
   }
 
   .hero-inner {
@@ -1441,5 +1440,16 @@ footer {
     width: 100%;
     max-width: 320px;
     justify-content: center;
+  }
+}
+
+/* Fix spacing issue in mobile view */
+@media (max-width: 768px) {
+  .nav {
+    padding: 10px 24px; /* Reduce padding for mobile */
+  }
+
+  .hero {
+    margin-top: 60px; /* Add margin to ensure proper spacing */
   }
 }
