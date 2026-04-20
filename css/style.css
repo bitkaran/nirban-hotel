@@ -1359,7 +1359,8 @@ footer {
   }
 
   .hero {
-    padding: 0 24px 60px;
+    padding: 120px 24px 60px; /* Top padding 120px ki taaki navbar se na takraye */
+    justify-content: center; /* Ye text ko bottom se utha kar center mein le aayega */
   }
 
   .hero-inner {
@@ -1449,7 +1450,4 @@ footer {
     padding: 10px 24px; /* Reduce padding for mobile */
   }
 
-  .hero {
-    margin-top: 60px; /* Add margin to ensure proper spacing */
-  }
 }
